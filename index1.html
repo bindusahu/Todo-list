@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-list">
+            <h2>
+                TO-DO list <img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="">
+            </h2>
+            <button id="reset-button">Reset</button>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button   class="add" onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container"></ul>
+            
+            <button id="show-all-button">Show All</button>
+            <button id="show-completed-button">Show Completed</button>
+            <button id="show-incomplete-button">Show Incomplete</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
